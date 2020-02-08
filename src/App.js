@@ -5,7 +5,7 @@ import SingleRoom from './pages/SingleRoom';
 import Error from './pages/Error';
 import {Switch,Route} from 'react-router-dom';
 import NavBar from './components/NavBar';
- import {space_ID,access_Token} from './ytco/myData'
+ //import {space_ID,access_Token} from './ytco/myData'
 //import logo from './logo.svg';
 
 import './App.css';
