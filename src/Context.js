@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import items from "./data";
 import Client from "./Contentfuls";
+import {createClient} from 'contentful'
 
 const RoomContext = React.createContext();
 class RoomProvider extends Component {
+  
   state = {
     rooms: [],
     sortedRooms: [],
@@ -52,7 +54,7 @@ class RoomProvider extends Component {
     }
   };
   componentDidMount() {
-
+   
     this.getData();
   }
 
