@@ -7,8 +7,8 @@
 
 # testing
 /coverage
-
-src/ytco
+.env.development
+#src/ytco
 # production
 /build
 
